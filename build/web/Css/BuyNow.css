@@ -1,0 +1,359 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: Century Gothic;
+}
+
+body
+{
+  background-image: url("Images/HomeBackground.jpg");
+  background-size: cover;
+}
+
+.header
+{
+    width: 1266px;
+    height: 30px;
+    background-color: transparent;
+    padding:5px 5px;
+    padding-top: 10px;
+    position:fixed;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("Images/header.jpg");
+    background-size:cover
+}
+
+.header span
+{
+	width: 100px;
+	color:white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 2px;
+        font-family: Century Gothic;
+        border:1px;
+        border-style:solid;
+        border-color:white;
+        padding: 2px 5px;
+}
+
+.header ul
+{
+  float: right;
+  list-style-type: none;
+  transform: translate(-5%,-240%);
+  color:white;
+}
+
+.header ul li
+{
+  display: inline-block;
+}
+
+.header ul li a
+{
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: white;
+  padding: 5px 20px;
+  transition: .8s ease;
+}
+
+.header ul li a:hover
+{
+  background-color: #fff;
+  color: #000;
+  cursor:pointer;
+}
+
+
+.loginbox
+{
+  opacity: .8;
+	width: 300px;
+	height: 450px;
+	background: #000;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-110%,-41%);
+  padding: 70px 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 20px white;
+}
+
+.logo
+{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: -16%;
+	left: 25%;
+}
+
+h1
+{
+   margin:-40px;
+   padding: 0px;
+   font-size: 40px;
+   font-family:Cooper black;
+   color: black;
+   text-shadow: 0px 0px 10px white;
+   text-align: center;
+   margin-bottom: 0px;
+}
+
+.loginbox label
+{
+    font-family:Century Gothic;
+    font-size: 25px;
+    background: transparent;
+    padding: 0px 5px 0px 0px;
+    text-align: left;
+    color: grey;
+    text-shadow: 0px 0px 5px black;
+    font-weight:bold;
+}
+
+.loginbox input[type="radio"]
+{
+    margin-top:10px;
+}
+
+.loginbox p
+{
+    font-weight: 900;
+    font-family:Bradley Hand ITC;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: -5px;
+    color: white;
+}
+ 
+.loginbox input[type="text"]
+{
+    border:none;
+    width:1px;
+    height:1px;
+    opacity: .5;
+    background-color:transparent; 
+}
+
+#selected
+{
+  background-color: white;
+  color: black
+}
+
+.header input
+{
+	
+	margin-left: 50px;
+	height: 25px;
+        padding: 5px;
+	font-weight: normal;
+        transform: translate(40%,-105%);
+}
+
+#searchbutton
+{
+       
+	width: 100px;
+	border: none;
+	outline: none;
+	height: 27px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 1px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-left: 9px;
+    text-shadow: 0px 0px 5px black;
+    transform: translate(158%,-95%);
+    padding-top:5px; 
+}
+
+.header img
+{
+    float:left;
+    width:20px;
+    height:20px;
+    background: transparent;
+    border-radius: 50%;
+    border:2px;
+    border-color:transparent;
+    border-style:solid;
+    transform: translate(2%,-10%);
+}
+
+#searchbutton:hover
+{
+	cursor: pointer;
+	color: #000;
+	background: #ffc107;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 0px white;
+}
+
+.search
+{
+	margin-top: 46px;
+	width: 150px;
+	height: 598px;
+	position: fixed;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background-image: url("Images/category.jpg");
+        background-size: cover;
+}
+.main
+{
+  margin-top: 0px;
+  margin-left: 0px;
+  list-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 150px;
+}
+.main li
+{
+   width: 150px;
+   height: 40px;
+   background-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   line-height: 2em;
+}
+
+.main li a
+{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.main li a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.sub li
+{
+  display: none;
+}
+
+.sub li:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.main li:hover .sub li
+{
+  display: block;
+  margin-left: 150px;
+}
+
+.sub
+{
+  margin-top: -40px;
+  background-color: transparent;
+}
+
+#abc
+{
+    background-color: transparent;
+    color: white;
+}
+
+.search img
+{
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 140px; 
+  height: 465px;
+}
+
+.sub button
+{
+  background-color: black;
+  border: none;
+  width:100%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.sub button:hover
+{
+   background-color: white;
+   color: black;
+}
+
+.container
+{
+  float: left;
+  margin-top: 55px;
+  margin-left: 160px;
+  width: 1110px;
+  height: 585px;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Images/PaymentBackground.jpg");
+  background-size: cover;
+}
+
+.loginbox input[type="submit"]
+{
+	width: 240px;
+	border: none;
+	outline: none;
+	height: 30px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 1px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-left: 0px;
+    box-shadow: 0px 0px 20px black;
+    text-shadow: 0px 0px 10px black;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	color: #000;
+	background: #ffc107;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 0px white;
+}
+
+#mode
+{
+    font-size: 18px;
+}
+
+#cart
+{
+    width:20px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border:none;
+    margin-left:5px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 50%;
+}

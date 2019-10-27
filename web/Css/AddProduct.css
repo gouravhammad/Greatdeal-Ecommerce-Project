@@ -1,0 +1,193 @@
+body
+{
+    background-image: url("Images/AddProduct.jpg");
+    background-size: cover;
+}
+
+.loginbox
+{
+    opacity: .9;
+	width: 420px;
+	height: 550px;
+	background: black;
+	color: #fff;
+	top: 56%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 20px black;
+}
+
+#mylogoi 
+{      
+        border:2px;
+        padding: 5px 10px;
+        border-style:solid;
+        border-color:white;
+        background-color: transparent;
+        margin-top:12px;
+	width: 160px;
+	color:white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 12px;
+        font-family: Century Gothic;
+}
+
+.logo
+{
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: -13%;
+	left: 35%;
+}
+
+h1
+{
+   margin:-55px;
+   padding: 0px;
+   text-align: center;
+   font-size: 35px;
+   color: black;
+   margin-bottom: -35px;
+   font-family:Cooper black;
+   text-shadow: 0px 0px 7px white;
+}
+
+.loginbox p,span
+{
+    font-weight: bold;
+    font-family:Bradley Hand ITC;
+    font-size: 20px;
+    margin-bottom: 2px;
+    margin-top: 9px;
+}
+
+.loginbox input
+{
+	width: 100%;
+}
+
+.loginbox select
+{
+    margin-top: 18px;
+    width: 259px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    font-family: cursive;
+    color: white;
+    border: none;
+    outline: solid;
+    outline-width: .5px;
+    outline-color: grey;
+}
+
+ .loginbox option
+{
+    background-color: black;
+    font-family: cursive;
+    color: white;
+}
+
+#accept
+{
+    font : normal 15px Comic Sans SM,sans-serif;
+    color : mediumseagreen;
+}
+
+.loginbox input[type="checkbox"]
+{
+    width: 10%;
+    margin-left: -10px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.loginbox input[type="text"],input[type="number"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+
+.loginbox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 30px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 4px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-top: 6px;
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	color: #000;
+	background: #ffc107;
+    font-family: monospace;
+    letter-spacing: 3px;
+}
+
+.loginbox a
+{
+	text-decoration: none;
+	font-size: 14px;
+	color: darkgrey;
+}
+
+ .loginbox a:hover
+{
+	color: #ffc107;
+}
+
+.Top
+{
+    font-family: Century Gothic;
+}
+
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 17px;
+    margin-right: 17px;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+.active
+{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li a
+{
+    text-decoration: none;
+    border: 1px solid transparent;
+    color: #fff;
+    padding: 5px 20px;
+    transition: .8s ease;
+}
+
+ul li a:hover
+{
+    background-color: #fff;
+    color: #000;
+}

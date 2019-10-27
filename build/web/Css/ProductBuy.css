@@ -1,0 +1,387 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+	color:black;
+}
+
+body
+{
+	background-image: url("Images/HomeBackground.jpg");
+	background-repeat: repeat-y;
+}
+
+.header
+{
+    width: 1266px;
+    height: 30px;
+    background-color: transparent;
+    padding:5px 5px;
+    padding-top: 10px;
+    position:fixed;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("Images/header.jpg");
+    background-size:cover
+}
+
+.header input
+{
+	
+	margin-left: 50px;
+	height: 12px;
+        padding: 5px;
+	font-weight: normal;
+        transform: translate(40%,-105%);
+}
+
+.header img
+{
+    float:left;
+    width:20px;
+    height:20px;
+    background: transparent;
+    border-radius: 50%;
+    border:2px;
+    border-color:transparent;
+    border-style:solid;
+    transform: translate(2%,-10%);
+}
+
+#searchbutton
+{
+       
+	width: 100px;
+	border: none;
+	outline: none;
+	height: 27px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 1px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-left: 9px;
+    text-shadow: 0px 0px 5px black;
+    transform: translate(158%,-95%);
+    padding-top:5px; 
+}
+
+#searchbutton:hover
+{
+	cursor: pointer;
+	color: #000;
+	background: #ffc107;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 0px white;
+}
+
+
+.header span
+{
+	width: 100px;
+	color:white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 2px;
+        font-family: Century Gothic;
+        border:1px;
+        border-style:solid;
+        border-color:white;
+        padding: 2px 5px;
+}
+
+.header ul
+{
+	float: right;
+	list-style-type: none;
+	transform: translate(-5%,-240%);
+	color:white;
+}
+
+.header ul li
+{
+	display: inline-block;
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	border: 1px solid transparent;
+	color: white;
+	padding: 5px 20px;
+	transition: .8s ease;
+}
+
+.header ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+	cursor:pointer;
+}
+
+.search
+{
+	margin-top: 46px;
+	width: 150px;
+	height: 598px;
+	position: fixed;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background-image: url("Images/category.jpg");
+        background-size: cover;
+}
+
+.main
+{
+	margin-left: 0px;
+	list-style: none;
+	cursor: pointer;
+	background-color: transparent;
+	width: 150px;
+}
+.main li
+{
+   width: 150px;
+   height: 40px;
+   background-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   line-height: 2em;
+}
+
+.main li a
+{
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+
+.main li a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.sub li
+{
+	display: none;
+}
+
+.sub li:hover
+{
+	background-color: white;
+	color: black;
+}
+
+.main li:hover .sub li
+{
+	display: block;
+	margin-left: 150px;
+}
+
+.sub
+{
+	margin-top: -40px;
+	background-color: transparent;
+}
+
+#abc
+{
+    background-color: transparent;
+    color: white;
+}
+
+.sub button
+{
+	background-color: black;
+	border: none;
+	width:100%;
+	height: 100%;
+	color: white;
+	font-size: 20px;
+        line-height: 2em;
+}
+
+.sub button:hover
+{
+   background-color: white;
+   color: black;
+}
+
+.container
+{
+	float: left;
+	margin-top: 35px;
+	margin-left: 160px;
+	width: 1110px;
+	height: 585px;
+	background-color: red;
+}
+
+.productitems
+{
+	background-color: white;
+	width: 460px;
+    height: 560px;
+    float:left;
+    box-shadow: 0px 0px 20px black;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.productitems span
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.buttons
+{
+	margin-top: 0px;
+	width: 460px;
+	height: 50px;
+	background-color: black;
+}
+
+.buttons a
+{
+      padding-top:8px;
+        text-decoration: none;
+	text-align:center;
+	width: 220px;
+	border: none;
+	outline: none;
+	height: 32px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 1px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    float: left;
+    margin-left: 6.5px;
+    margin-top:5px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.buttons a:hover
+{
+	cursor: pointer;
+	color: #000;
+	background: #ffc107;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 0px white;
+}
+
+.model
+{
+	margin: 0px;
+	padding:10px 10px 20px 10px;
+	height: 50px;
+	width: 440px;
+	background-color: black;
+}
+
+.model h2
+{
+	color: white;
+	text-shadow: 0px 0px 4px black;
+	font-size: 28px;
+	font-family: Cooper Black;
+}
+
+.details
+{
+	padding: 10px;
+	background-color: white;
+	width: 440px;
+	height: 170px;
+	text-align: justify;
+	font-weight: bold;
+}
+
+.properties
+{
+	margin: 0px;
+	padding:10px 10px;
+	height: 170px;
+	width: 440px;
+	background-color: white;
+}
+
+.properties span
+{
+	line-height: 30px;
+}
+
+#type
+{
+	font-family: Cooper Black;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 2px white;
+	color: black;
+	font-size: 22px;
+}
+
+.price
+{
+	margin: 0px;
+	padding:10px 10px;
+	height: 30px;
+	width: 440px;
+	background-color: white;
+}
+
+.price span
+{
+	font-size: 30px;
+}
+
+.price #type2
+{
+	font-family: Cooper Black;
+	letter-spacing: 1px;
+	text-shadow: 0px 0px 2px white;
+	color: black;
+	font-size: 30px;
+}
+
+#carty
+{
+    width:20px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border:none;
+    margin-left:5px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 50%;
+}
+
+.display
+{
+    float: left;
+    width: 605px;
+    height: 560px;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 0px 0px 20px black;
+}
+
+.display img
+{
+	margin-left: 75px;
+	height: 100%;
+	width: 455px;
+}

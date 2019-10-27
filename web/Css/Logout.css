@@ -1,0 +1,57 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: Century Gothic;
+}
+
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)),url("Images/LogoutBackground.jpg");
+	background-size: cover;
+}
+
+.button
+{
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.button a
+{
+	color: white;
+	border: none;
+	padding: 10px 80px;
+	transition: .8s ease;
+	font-size : 20px;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: black;
+}
+
+.button a:hover
+{
+	background-color: #fff;
+	color: #000;
+	cursor: pointer;
+}
+
+.confirm
+{
+                 
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-shadow: 0px 0px 3px black;
+}
+
+.confirm h1
+{
+	color:White;
+	font-size: 60px;
+        text-shadow: 0px 0px 10px black;
+        font-weight:bold;
+}

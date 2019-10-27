@@ -1,0 +1,95 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  font-family: Century Gothic;
+}
+
+body
+{
+  background-image: url("Images/AdminHome.jpg");
+  background-size: cover;
+}
+
+#mylogoi 
+{      
+       padding: 5px 10px;
+        border:2px;
+        border-style:solid;
+        border-color:white;
+        background-color: transparent;
+        margin-top:20px;
+	width: 160px;
+	color:white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 20px;
+        font-family: Century Gothic;
+}
+
+ul
+{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+  margin-right: 25px;
+}
+
+ul li
+{
+  display: inline-block;
+}
+
+.active
+{
+  background-color: #fff;
+  color: black;
+}
+
+ul li a
+{
+  text-decoration: none;
+  border: 1px solid transparent;
+  color: #fff;
+  padding: 5px 20px;
+  transition: .8s ease;
+}
+
+ul li a:hover
+{
+  background-color: #fff;
+  color: #000;
+}
+
+.button
+{
+  margin-left: 20px;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 890px;
+  height: 100px;
+}
+
+.button a
+{
+  color: white;
+  padding: 50px 70px;
+  transition: .8s ease;
+  font-size : 30px;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: black;
+  box-shadow: 0px 0px 15px black;
+  text-shadow: 0px 0px 2px white;
+  opacity: .9;
+}
+
+.button a:hover
+{
+  text-shadow: 0px 0px 2px black;
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}

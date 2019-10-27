@@ -1,0 +1,536 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Century Gothic;
+	color:black;
+}
+
+body
+{
+	background-image: url("Images/HomeBackground.jpg");
+	background-repeat: repeat-y;
+}
+
+.header
+{
+    width: 1266px;
+    height: 30px;
+    padding:5px 5px;
+    padding-top: 10px;
+    position:fixed;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    background-image: url("Images/header.jpg");
+    background-size: cover;
+}
+
+.header input
+{
+	
+	margin-left: 50px;
+	height: 12px;
+        padding: 5px;
+	font-weight: normal;
+        transform: translate(40%,-105%);
+}
+
+.header img
+{
+    float:left;
+    width:20px;
+    height:20px;
+    background: transparent;
+    border-radius: 50%;
+    border:2px;
+    border-color:transparent;
+    border-style:solid;
+    transform: translate(2%,-10%);
+}
+
+#searchbutton
+{
+       
+	width: 100px;
+	border: none;
+	outline: none;
+	height: 27px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 1px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-left: 9px;
+    text-shadow: 0px 0px 5px black;
+    transform: translate(158%,-95%);
+    padding-top:5px; 
+}
+
+#searchbutton:hover
+{
+	cursor: pointer;
+	color: #000;
+	background: #ffc107;
+    font-family: monospace;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 0px white;
+}
+
+.header span
+{
+	width: 100px;
+	color:white;
+	font-size: 20px;
+	letter-spacing: 3px;
+	margin-left: 2px;
+        font-family: Century Gothic;
+        border:1px;
+        border-style:solid;
+        border-color:white;
+        padding: 2px 5px;
+}
+
+.header ul
+{
+	float: right;
+	list-style-type: none;
+	transform: translate(-5%,-240%);
+	color:white;
+}
+
+.header ul li
+{
+	display: inline-block;
+}
+
+.header ul li a
+{
+	text-decoration: none;
+	border: 1px solid transparent;
+	color: white;
+	padding: 5px 20px;
+	transition: .8s ease;
+}
+
+.header ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+	cursor:pointer;
+}
+
+.cartitems
+{
+	width: 1095px;
+	float: left;
+	background-color: black;
+	margin-top: 55px;
+	margin-left: 160px;
+	padding-bottom:15px;  
+        margin-bottom: 10px;
+}
+
+
+.items
+{
+	margin-top: 15px;
+	margin-left: 15px;
+	width: 1065px;
+	height: 100px;
+	float:left;
+	background-color: grey;
+	box-shadow: 0px 0px 10px black;
+}
+
+.productdetails
+{
+	background-color: white;
+	width: 480px;
+    height: 80px;
+    float:left;
+    box-shadow: 0px 0px 8px black;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.details
+{
+	padding: 5px 10px;
+	width: 460px;
+	height: 42px;
+	background-color: white;
+	text-align: justify;
+	float: left;
+	font-size: 12px;
+	line-height: 23px;
+}
+
+.properties
+{
+	margin-top: 1px;
+	padding: 4px 10px;
+	width: 460px;
+	height: 18px;
+	background-color: white;
+	text-align: justify;
+	float: left;
+	font-size: 10px;
+}
+
+.properties span
+{
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#type
+{
+	font-family: Cooper Black;
+	text-shadow: 0px 0px 5px white;
+	font-size : 15px;
+}
+
+.productimage
+{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+
+.productimage img
+{
+	margin:5px;
+	width: 70px;
+	height: 70px;
+	float: left;
+}
+
+.price
+{
+	font-size: 11px;
+	padding: 5px 5px 5px 5px;
+	float: left;
+	width: 80px;
+	height: 70px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+
+.price label
+{
+   margin-top: 5px;
+   width: 60px;
+   height: 25px;
+   font-size: 18px;
+   font-weight: bold;
+   float: left;
+   margin-left: 2px;
+   background: red;
+   text-align: center;
+   padding: 8px 7px 6px 9px; 
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 1px black;
+    color: white;
+}
+
+
+
+.serial
+{
+	text-align: center;
+	padding: 20px 2px 20px 2px;
+	float: left;
+	width: 60px;
+	height: 40px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+
+#active
+{
+	background-color: white;
+	color: black;
+}
+
+.buttons
+{
+	width: 1064px;
+	margin-top: 15px;
+	height: 60px;
+	background-color: white;
+	margin-left: 15px;
+	float: left;
+}
+
+#total
+{
+    padding: 11px 90px;
+    width: 337px;
+	border: none;
+	outline: none;
+	height: 28px;
+	background: purple;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 1px;
+    transition: .8s;
+    font-family: monospace;
+    letter-spacing: 3px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    text-shadow: 0px 0px 10px black;
+}
+
+.cartitems h1,#model
+{
+	font-family: Cooper Black;
+	text-shadow: 0px 0px 5px white;
+}
+
+#model
+{
+	color : black;
+	text-shadow: 0px 0px 5px white;
+	text-decoration-color: blue;
+	transition: .8s;
+}
+
+#model:hover
+{
+	color : blue;
+	text-shadow: 0px 0px 5px white;
+	text-decoration-color: black;
+}
+
+.search
+{
+	margin-top: 46px;
+	width: 150px;
+	height: 598px;
+	position: fixed;
+	background-color: transparent;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	background-image: url("Images/category.jpg");
+        background-size: cover;
+}
+.main
+{
+  margin-top: 0px;
+  margin-left: 0px;
+  list-style: none;
+  cursor: pointer;
+  background-color: transparent;
+  width: 150px;
+}
+
+.main li
+{
+   width: 150px;
+   height: 40px;
+   background-color: transparent;
+   text-align: center;
+   font-size: 20px;
+   line-height: 2em;
+}
+
+.main li a
+{
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.main li a:hover
+{
+    background-color: white;
+    color: black;
+}
+
+.sub li
+{
+  display: none;
+}
+
+.sub li:hover
+{
+  background-color: white;
+  color: black;
+}
+
+.main li:hover .sub li
+{
+  display: block;
+  margin-left: 150px;
+}
+
+.sub
+{
+  margin-top: -40px;
+  background-color: transparent;
+}
+
+#abc
+{
+    background-color: transparent;
+    color: white;
+}
+
+.search img
+{
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 140px; 
+  height: 465px;
+}
+
+.sub button
+{
+  background-color: black;
+  border: none;
+  width:100%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.sub button:hover
+{
+   background-color: white;
+   color: black;
+}
+
+.dateandtime
+{
+	font-size: 11px;
+	float: left;
+	width: 140px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+
+.dateandtime h1
+{
+    height:30px;
+    width:55px;
+    background: white;
+    float:left;
+    font-size: 20px;
+     padding-top: 4px;
+}
+
+.dateandtime label
+{
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding: 6px 2px 4px 2px;
+    float:left;
+    width:70px;
+    background: red;
+    color:white;
+    height: 20px;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 1px black;
+}
+
+
+.date
+{
+    padding: 5px;
+    width:130px;
+    height:30px;
+    background: white;
+}
+
+.time
+{
+    padding: 5px;
+    width:130px;
+    height:30px;
+    background: white;
+}
+
+.modeandquantity
+{
+	font-size: 11px;
+	float: left;
+	width: 140px;
+	height: 80px;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 8px black;
+}
+
+.modeandquantity h1
+{
+    height:30px;
+    width:55px;
+    background: white;
+    float:left;
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.modeandquantity label
+{
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    padding: 6px 2px 4px 2px;
+    float:left;
+    width:70px;
+    background: red;
+    height: 20px;
+    box-shadow: 0px 0px 5px black;
+    text-shadow: 0px 0px 1px black;
+    color:white
+}
+
+
+.quantity
+{
+    padding: 5px;
+    width:130px;
+    height:30px;
+    background: white;
+}
+
+.mode
+{
+    padding: 5px;
+    width:130px;
+    height:30px;
+    background: white;
+}
+
+#cart
+{
+    width:20px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+    border:none;
+    margin-left:5px;
+    cursor: pointer;
+    font-weight:bold;
+    border-radius: 50%;
+}
